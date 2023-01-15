@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,700&family=Secular+One&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.banner-image {
+	background-image: url(./images/sergey-sokolov-yxJavcfExYs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+	height: 250px;
+    margin-top: 168px;
+}
+
+.header {
+	padding-top: 3.125rem;
+	color: white;
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+h1{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2, nav{
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+}
+
+.main-nav {
+    display: flex;
+}
+    
+.push {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.625rem;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    
+}
+
+nav li{
+    padding: 1rem;
+}
+
+nav a:visited{
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.section-three{
+    padding: 15px;
+    margin: 0 1.25rem 1.25rem 1.25rem;
+}
+
+.section-three a:visited{
+    color: white;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    padding: 1.25rem;
+}
+
+.banner{
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 90px 30px;
+}
+
+.banner p:first-child {
+    margin:auto;
+    font-size: 1.7em;
+}
+
+svg{
+    fill: white;
+    height: 3.125rem;
+    width: 3.125rem;
+}
+
+.i{
+    fill: white;
+    height: 3.125rem;
+    width: 3.125rem;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us a{
+    padding: 1.25rem;
+}
+
+@media screen and (max-width: 900px) {
+    img{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    .hide-small{
+        display: none;
+    }
+        
+}
